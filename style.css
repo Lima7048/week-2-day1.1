@@ -1,17 +1,27 @@
 * {
   font-family: "Courier New", Courier, monospace;
-  background-color: rgb(183, 239, 221);
+  background-color: rgb(194, 235, 222);
 }
 h1 {
   color: rgb(82, 82, 141);
   background-color: rgb(182, 146, 210);
   border-radius: 5px;
   padding: 20px;
+  font-size: 40px;
 }
 h2 {
-  color: blueviolet;
+  color: rgb(182, 146, 210);
+  font-size: 25px;
+  background: linear-gradient;
 }
 p {
-  color: rgb(0, 242, 255);
+  color: rgb(42, 0, 166);
   background-color: rgb(4, 57, 60);
+  background: linear-gradient(95deg, rgb(99, 217, 209) 30%, rgb(128, 97, 250));
+  border-radius: 7px;
+  padding: 5px;
+}
+
+body {
+  background: linear-gradient(95deg, rgb(99, 217, 209) 30%, rgb(128, 97, 250));
 }
