@@ -34,3 +34,26 @@ const foods = [
 for (let food of foods) {
   console.log(food);
 }
+
+
+const animals = ["cat", "parakeet", "owl", "lemur", "toucan"];
+animals.forEach(function (animals, index) {
+  console.log(index, animals);
+})
+
+const colours = ["taupe", "mauve", "purple", "orange", "lemon", "gold"];
+colours.forEach(function (colours, index) {
+  console.log(index, colours);
+})
+
+const favouriteNumbers = [10, 888, 9, 5, 27, 444, 15,];
+for (let number of favouriteNumbers) {
+  console.log(number);
+}
+
+let counter = 0;
+
+while (counter <= 10) {
+  console.log(counter); counter++;
+}
+
